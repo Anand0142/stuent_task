@@ -5,7 +5,7 @@ import TaskList from "./TaskList";
 import FilterBar from "./FilterBar";
 import "./App.css";
 
-const API = "http://localhost:5000/api/tasks";
+const API = "https://student-task-backend-lutz.onrender.com/api/tasks";
 
 function App() {
   const [tasks, setTasks] = useState([]);

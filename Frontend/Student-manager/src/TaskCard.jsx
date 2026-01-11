@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-const API = "http://localhost:5000/api/tasks";
+const API = "https://student-task-backend-lutz.onrender.com/api/tasks";
 
 export default function TaskCard({ task, onUpdate, onDelete }) {
   const [error, setError] = useState("");
